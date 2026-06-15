@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Sazón de Teresita | Tamales norteños, tacos y gorditas</title>
+  <meta name="description" content="Tamales norteños, tacos, gorditas de guisos y promoción de chiles rellenos de El Sazón de Teresita.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">ST</span>
+        <span>El Sazón de Teresita</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links">
+        <a href="#menu">Menú</a>
+        <a href="#especiales">Especiales</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+        <a href="https://www.facebook.com/profile.php?id=61579443391199" target="_blank" rel="noopener">Facebook</a>
+        <a class="nav-order" href="#contacto">Pedir</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Cocina fresca todos los días</p>
+        <h1>Tamales norteños, tacos y gorditas de guisos.</h1>
+        <p class="hero-text">Comida casera preparada al momento: tamales de pollo, frijol o mixtos por $110, tacos y gorditas de guisos desde $24, y promoción de 3 chiles por $100.</p>
+        <div class="hero-highlights" aria-label="Especialidades">
+          <span>Tamales $110</span>
+          <span>Tacos y gorditas desde $24</span>
+          <span>3 chiles $100</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#menu">Ver menú</a>
+          <a class="btn btn-secondary" href="#contacto">Ordenar ahora</a>
+        </div>
+      </div>
+
+      <div class="hero-photo" role="img" aria-label="Tamales, tacos y chiles rellenos de la casa"></div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section intro">
+      <div>
+        <p class="eyebrow">Hecho al momento</p>
+        <h2>Tamales, tacos y gorditas con sazón de casa.</h2>
+      </div>
+      <p>Preparamos tamales norteños recién hechos, tacos o gorditas con guisos caseros y platillos de chiles rellenos para disfrutar en familia, compartir en reuniones o pedir cuando se antoja comida hecha con cariño.</p>
+    </section>
+
+    <section class="order-steps" aria-label="Cómo pedir">
+      <article>
+        <span>1</span>
+        <h3>Elige tu comida</h3>
+        <p>Selecciona tamales, tacos o gorditas de guisos, o platillos con chiles rellenos.</p>
+      </article>
+      <article>
+        <span>2</span>
+        <h3>Escríbenos</h3>
+        <p>Cuéntanos cantidades, horario y si quieres docenas mixtas.</p>
+      </article>
+      <article>
+        <span>3</span>
+        <h3>Confirmamos</h3>
+        <p>Te compartimos disponibilidad, precios y tiempo de entrega.</p>
+      </article>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">Menú</p>
+        <h2>Elige tu antojo</h2>
+      </div>
+
+      <div class="menu-tabs" aria-label="Categorías del menú">
+        <button class="tab active" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+        <button class="tab" type="button" data-filter="tamales" aria-pressed="false">Tamales</button>
+        <button class="tab" type="button" data-filter="guisos" aria-pressed="false">Tacos y gorditas</button>
+        <button class="tab" type="button" data-filter="platillos" aria-pressed="false">Platillos</button>
+      </div>
+      <p class="menu-note" aria-live="polite">Mostrando todo el menú con precios del anuncio. Confirma disponibilidad del día por WhatsApp.</p>
+
+      <div class="menu-grid">
+        <article class="menu-card" data-category="tamales">
+          <div class="dish-photo photo-tamales-pollo" role="img" aria-label="Docena de tamales de pollo"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Tamales de pollo</h3>
+              <p>Tamales norteños recién hechos. Incluyen salsa y repollo.</p>
+            </div>
+            <span class="price">$110 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="tamales">
+          <div class="dish-photo photo-tamales-frijol" role="img" aria-label="Docena de tamales de frijol"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Tamales de frijol</h3>
+              <p>Tamales norteños de frijol, calientitos y listos para compartir.</p>
+            </div>
+            <span class="price">$110 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="tamales">
+          <div class="dish-photo photo-tamales-mixtos" role="img" aria-label="Docena mixta de tamales de pollo y frijol"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Tamales mixtos</h3>
+              <p>Docena mixta con tamales de pollo y frijol. Incluyen salsa y repollo.</p>
+            </div>
+            <span class="price">$110 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="guisos">
+          <div class="dish-photo photo-tacos-chicharron" role="img" aria-label="Chicharrón estilo MTY"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Chicharrón estilo MTY</h3>
+              <p>Guiso disponible en taco o gordita, servido calientito.</p>
+            </div>
+            <span class="price">$27 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="guisos">
+          <div class="dish-photo photo-gorditas-comal" role="img" aria-label="Gorditas en el comal para picadillo"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Picadillo</h3>
+              <p>Picadillo casero disponible en taco o gordita.</p>
+            </div>
+            <span class="price">$24 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="guisos">
+          <div class="dish-photo photo-tacos-bistec" role="img" aria-label="Deshebrada"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Deshebrada</h3>
+              <p>Carne deshebrada guisada para pedir en taco o gordita.</p>
+            </div>
+            <span class="price">$24 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="guisos">
+          <div class="dish-photo photo-tacos-nopales" role="img" aria-label="Tacos de nopales"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Nopales</h3>
+              <p>Nopales preparados con sazón tradicional para taco o gordita.</p>
+            </div>
+            <span class="price">$24 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="guisos">
+          <div class="dish-photo photo-tacos-bistec" role="img" aria-label="Bistec con papas"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Bistec/Papas</h3>
+              <p>Guiso casero de bistec con papas para pedir en taco o gordita.</p>
+            </div>
+            <span class="price">$24 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="guisos">
+          <div class="dish-photo photo-tacos-huevo" role="img" aria-label="Huevo en salsa"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Huevo/salsa</h3>
+              <p>Huevo guisado en salsa, una opción casera para taco o gordita.</p>
+            </div>
+            <span class="price">$24 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="guisos">
+          <div class="dish-photo photo-gorditas-plancha" role="img" aria-label="Gorditas en la plancha para frijol con queso"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Frijol/queso</h3>
+              <p>Frijol con queso, sencillo y sabroso, disponible en taco o gordita.</p>
+            </div>
+            <span class="price">$24 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="platillos">
+          <div class="dish-photo photo-chiles-tres" role="img" aria-label="Platillo de tres chiles rellenos"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Promoción 3 chiles rellenos</h3>
+              <p>Incluyen arroz, frijoles y tortillas.</p>
+            </div>
+            <span class="price">3 x $100 pesos</span>
+          </div>
+        </article>
+
+        <article class="menu-card" data-category="platillos">
+          <div class="dish-photo photo-chiles-dos" role="img" aria-label="Platillo de dos chiles rellenos"></div>
+          <div class="dish-info">
+            <div>
+              <h3>Platillo de 2 chiles rellenos</h3>
+              <p>Incluye arroz, frijoles y tortillas.</p>
+            </div>
+            <span class="price">Pregunta por precio</span>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="specials" id="especiales">
+      <div class="special-copy">
+        <p class="eyebrow">Promociones</p>
+        <h2>Precios claros para pedir fácil.</h2>
+        <p>Tamales norteños de pollo, frijol o mixtos; tacos y gorditas de guisos; y la promoción de chiles rellenos con arroz, frijoles y tortillas.</p>
+        <a class="btn btn-dark" href="#contacto">Pedir por WhatsApp</a>
+      </div>
+      <div class="special-cards" aria-label="Promociones principales">
+        <article class="special-panel">
+          <span>Tamales norteños</span>
+          <strong>$110</strong>
+          <small>Pollo, frijol o mixtos. Incluyen salsa y repollo.</small>
+        </article>
+        <article class="special-panel special-panel-accent">
+          <span>Chiles rellenos</span>
+          <strong>3 x $100</strong>
+          <small>Incluyen arroz, frijoles y tortillas.</small>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="galeria">
+      <div class="section-heading">
+        <p class="eyebrow">Galería</p>
+        <h2>El sazón en movimiento</h2>
+      </div>
+
+      <div class="featured-video">
+        <div class="featured-video-copy">
+          <p class="eyebrow">Video</p>
+          <h3>Comida casera lista para compartir.</h3>
+          <p>Tamales, tacos de guisos y platillos preparados con el toque de casa.</p>
+        </div>
+        <div class="video-frame">
+          <video class="gallery-video" controls muted playsinline preload="metadata" poster="assets/galeria-1-web.jpg" aria-label="Video de platillos de El Sazón de Teresita">
+            <source src="assets/video-teresita.mp4" type="video/mp4">
+            Tu navegador no puede reproducir este video.
+          </video>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-photo gallery-one" role="img" aria-label="Foto de comida uno"></div>
+        <div class="gallery-photo gallery-two" role="img" aria-label="Foto de comida dos"></div>
+        <div class="gallery-photo gallery-three" role="img" aria-label="Foto de comida tres"></div>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <div class="contact-copy">
+        <p class="eyebrow">Contacto</p>
+        <h2>Haz tu pedido.</h2>
+        <p>Atendemos pedidos de tamales norteños, tacos o gorditas de guisos y promoción de chiles rellenos. Escríbenos y confirmamos disponibilidad del día.</p>
+        <div class="contact-options">
+          <a class="contact-link" href="https://wa.me/528991110801" target="_blank" rel="noopener">WhatsApp 899 111 0801</a>
+          <a class="contact-link contact-link-light" href="https://www.facebook.com/profile.php?id=61579443391199" target="_blank" rel="noopener">Ver Facebook</a>
+          <span>Ubicación: Calle Miguel Barragán, Col. El Olmo, frente al Seven Eleven.</span>
+          <span>Referencia: somos los de la casita naranja.</span>
+          <span>Horario: lunes a sábado · 9:00 AM - 2:00 PM</span>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <label>
+          Nombre
+          <input type="text" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+        </label>
+        <label>
+          Teléfono
+          <input type="tel" name="telefono" placeholder="Tu teléfono" autocomplete="tel" required>
+        </label>
+        <div class="orders-field">
+          <div class="orders-heading">
+            <span>Pedidos</span>
+            <small>Agrega uno o varios platillos.</small>
+          </div>
+          <div class="order-list">
+            <div class="order-item">
+              <span class="order-title">Pedido 1</span>
+              <textarea class="order-input" name="pedidos[]" rows="3" placeholder="¿Qué te gustaría ordenar?" aria-label="Pedido 1" required></textarea>
+            </div>
+          </div>
+          <button class="add-order" type="button">Agregar otro pedido</button>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar pedido</button>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>El Sazón de Teresita</p>
+    <p>Calle Miguel Barragán, Col. El Olmo · Frente al Seven Eleven</p>
+    <a href="https://www.facebook.com/profile.php?id=61579443391199" target="_blank" rel="noopener">Facebook</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

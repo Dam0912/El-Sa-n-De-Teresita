@@ -1,0 +1,22 @@
+Coloca tus imágenes en esta carpeta con estos nombres para que aparezcan automáticamente en la página:
+
+hero.png
+tamales-pollo.png
+tamales-frijol.png
+tamales-mixtos.png
+tacos-chicharron.png
+tacos-bistec.png
+tacos-huevo-salsa.png
+tacos-nopales.png
+chiles-rellenos-3.png
+chiles-rellenos-2.png
+guisos.png
+especial.png
+galeria-1.png
+galeria-2.png
+galeria-3.png
+
+Puedes usar fotos .png o .jpg. Si tus archivos tienen otros nombres, dime cuáles son y los conecto en la página.
+Los precios todavía están como "Precio por confirmar" para actualizarlos cuando me los des.
+Algunas fotos de tacos y chiles están reutilizadas temporalmente hasta que tengamos fotos específicas de cada guiso.
+La página usa copias optimizadas terminadas en "-web.jpg" para cargar más rápido; las fotos originales quedan guardadas también.
